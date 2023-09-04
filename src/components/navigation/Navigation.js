@@ -7,12 +7,14 @@ function Navigation() {
     return (
         <>
             <div className={`outer-container ${styles["nav-outer"]}`}>
-                <div className={styles["nav-left"]}>
-                    <img src={beehiveLogo} alt="beehive-logo"/>
-                    <h2>Beehive</h2>
-                </div>
+                <NavLink to="/" className={styles['nav-style']}>
+                    <div className={styles["nav-left"]}>
+                        <img src={beehiveLogo} alt="beehive-logo"/>
+                        <h2>Beehive</h2>
+                    </div>
+                </NavLink>
                 <div>
-                    <NavLink to="/login">
+                    <NavLink to="/login" className={styles['nav-text']}>
                         Login
                     </NavLink>
                 </div>

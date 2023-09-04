@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px indianred;
+    /*border: solid 1px indianred;*/
 }
 
 
@@ -31,6 +31,10 @@
 /* COLORS*/
 
 :root {
+    --primary-black: #000;
     --primary-yellow: #FFCB0C;
     --dark-gray: #B4ACAC;
 }
+
+/* ELEMENTS*/
+
