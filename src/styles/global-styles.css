@@ -1,0 +1,40 @@
+/* CSS RESET*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: solid 1px indianred;*/
+}
+
+
+/* FLEXBOX */
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    max-width: 1200px;
+}
+
+
+/* COLORS*/
+
+:root {
+    --primary-black: #000;
+    --primary-yellow: #FFCB0C;
+    --dark-gray: #B4ACAC;
+}
+
+/* ELEMENTS*/
+

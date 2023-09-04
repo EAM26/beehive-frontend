@@ -1,0 +1,55 @@
+img {
+    width: 50px;
+    height: 60px;
+}
+
+
+h2 {
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.nav-outer {
+    background-color: var(--primary-yellow);
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--dark-gray) ;
+}
+
+.nav-text {
+    font-size: 30px;
+}
+
+.nav-text:hover {
+    font-style: italic;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: var(--primary-black)
+}
+
+.nav-left:hover {
+    font-style: italic;
+}
+
+
+
+
+.nav-style {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
