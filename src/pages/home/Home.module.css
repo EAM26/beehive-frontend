@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack hexagons vertically */
+    align-items: center; /* Center hexagons horizontally */
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-blue);
+}
+
+.hexagon-row {
+    display: flex;
+    justify-content: center; /* Center hexagons horizontally within the row */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-top: 100px;
+}
+
+.third-hexagon {
+    margin-top: -95px; /* Adjust the negative margin to move it higher */
+}
