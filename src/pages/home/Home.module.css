@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack hexagons vertically */
+    align-items: center; /* Center hexagons horizontally */
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-blue);
+}
+
+.hexagon-row {
+    display: flex;
+    justify-content: center; /* Center hexagons horizontally within the row */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-top: 150px; /* Adjust the top margin as needed */
+}
+
+.third-hexagon {
+    margin-top: -82px; /* Adjust the negative margin to move it higher */
+}
+
+.text-container {
+    position: relative;
+    color: var(--primary-yellow);
+    text-align: center;
+}
+
+.text-poem {
+    position: absolute;
+    color: #FFCB0C;
+    font-family: 'Poor Story', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+.text-up {
+    top: 50px; /* Adjust the top position */
+    right: 0;
+}
+.text-left {
+    top: 300px; /* Adjust the top position */
+    right: 350px;
+    rotate: -90deg;
+}
+.text-right {
+    top: 300px; /* Adjust the top position */
+    right: -350px;
+    rotate: 90deg;
+}
+
+.text-bottom {
+    top: 750px; /* Adjust the bottom position */
+    right: 0;
+    rotate: 180deg;
+}

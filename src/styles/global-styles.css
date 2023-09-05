@@ -1,3 +1,7 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins&family=Roboto&display=swap');
+
 /* CSS RESET*/
 
 * {
@@ -9,6 +13,15 @@
 
 
 /* FLEXBOX */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+
+}
 
 .outer-container {
     display: flex;
@@ -28,13 +41,19 @@
 }
 
 
-/* COLORS*/
+/* COLORS VARS */
 
 :root {
     --primary-black: #000;
     --primary-yellow: #FFCB0C;
     --dark-gray: #B4ACAC;
+    --dark-blue: #10162F;
 }
 
 /* ELEMENTS*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
 
