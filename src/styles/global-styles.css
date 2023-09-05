@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/* Google Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins&family=Roboto&display=swap');
 
 /* CSS RESET*/
 
@@ -7,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px indianred;
+    /*border: solid 1px indianred;*/
 }
 
 
@@ -40,7 +41,7 @@
 }
 
 
-/* COLORS*/
+/* COLORS VARS */
 
 :root {
     --primary-black: #000;
@@ -51,8 +52,8 @@
 
 /* ELEMENTS*/
 
-/*body {*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*    font-family: 'Roboto', sans-serif;*/
-/*}*/
+body {
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Hexagon.module.css';
 
-function Hexagon({ text, onClick, className }) {
+function Hexagon({ type, text, onClick, className }) {
     return (
-        <button className={`${styles.hexagonButton} ${className}`} onClick={onClick}>
+        <button className={`${styles.hexagonButton} ${className}`} type={type} onClick={onClick}>
             {text}
         </button>
     );

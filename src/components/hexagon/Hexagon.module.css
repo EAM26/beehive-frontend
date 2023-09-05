@@ -1,12 +1,12 @@
 .hexagonButton {
     position: relative;
-    width: 300px; /* Adjust the button's width as needed */
-    height: 350px; /* Adjust the button's height accordingly (approximately 1.5 times the width for a regular hexagon) */
-    margin: 3px;
-    overflow: hidden; /* Hide the overflow to ensure the button stays within the hexagon shape */
-    background-color: #FFCB0C; /* Hexagon color */
-    color: #10162F;
-    font-size: 18px; /* Adjust the font size as needed */
+    width: 250px;
+    height: 292px; margin: 2px;
+    overflow: hidden;
+    background-color: var(--primary-yellow);
+    color: var(--dark-blue);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
     font-weight: 600;
     border: none;
     cursor: pointer;
@@ -17,8 +17,10 @@
             50% 100%,
             0% 75%,
             0% 25%
-    ); /* Hexagon shape */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    );
+}
+
+.hexagonButton:hover {
+    background-color: #ff9600;
+    font-style: italic;
 }
