@@ -8,36 +8,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*border: solid 1px indianred;*/
 }
 
 
 /* FLEXBOX */
 
-.app-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-
-}
 
 .outer-container {
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    justify-content: center;
+    display: flex;
     align-items: center;
-
-
+    justify-content: center;
 }
 
 .inner-container {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    flex: 0 1 auto;
-    max-width: 1200px;
 }
 
 
@@ -54,6 +42,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    min-width: 100vh;
+    background-color: var(--dark-blue);
     /*font-family: 'Roboto', sans-serif;*/
 }
 
