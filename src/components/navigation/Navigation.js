@@ -18,10 +18,7 @@ function Navigation() {
                         Login
                     </NavLink>
                 </div>
-
             </div>
-
-
         </>
     );
 }

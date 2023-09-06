@@ -29,28 +29,30 @@ function Home() {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            // Move the last sentence to the front
+
             const updatedSentences = [...sentences.slice(1), sentences[0]];
             setSentences(updatedSentences);
         }, 2000);
 
         return () => {
-            clearInterval(intervalId); // Clear the interval when the component unmounts
+            clearInterval(intervalId);
         };
     }, [sentences]);
 
     return (
-        <div className={styles["home-container"]}>
-            <div className={styles["text-container"]}>
-                <div className={`${styles["text-poem"]} ${styles["text-up"]}`}>{sentences[0]}</div>
-                <div className={`${styles["text-poem"]} ${styles["text-left"]}`}>{sentences[3]}</div>
-                <div className={`${styles["text-poem"]} ${styles["text-right"]}`}>{sentences[1]}</div>
-                <div className={styles["hexagon-row"]}>
-                    <Hexagon text="Rooster" onClick={handleClick}/>
-                    <Hexagon text="Kaart" onClick={handleClick}/>
-                </div>
-                <Hexagon text="Kantoor" onClick={handleClick} className={styles["third-hexagon"]}/>
-                <div className={`${styles["text-poem"]} ${styles["text-bottom"]}`}>{sentences[2]}
+        <div className={"outer-container"}>
+            <div className={"inner-container"}>
+                <div className={styles["text-container"]}>
+                    <p className={`${styles["text-poem"]} ${styles["text-up"]}`}>{sentences[0]}</p>
+                    <p className={`${styles["text-poem"]} ${styles["text-left"]}`}>{sentences[3]}</p>
+                    <p className={`${styles["text-poem"]} ${styles["text-right"]}`}>{sentences[1]}</p>
+                    <div className={styles["hexagon-row"]}>
+                        <Hexagon text="Rooster" onClick={handleClick}/>
+                        <Hexagon text="Kaart" onClick={handleClick}/>
+                    </div>
+                    <Hexagon text="Kantoor" onClick={handleClick} className={styles["third-hexagon"]}/>
+                    <p className={`${styles["text-poem"]} ${styles["text-bottom"]}`}>{sentences[2]}
+                    </p>
                 </div>
             </div>
         </div>
