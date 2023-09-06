@@ -8,12 +8,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /*border: indianred 1px solid;*/
 }
 
 
 /* FLEXBOX */
-
-
 .outer-container {
     width: 100%;
     display: flex;
@@ -26,6 +25,7 @@
     max-width: 1200px;
     display: flex;
     flex-direction: column;
+    margin-inline: 1rem;
 }
 
 
@@ -34,8 +34,10 @@
 :root {
     --primary-black: #000;
     --primary-yellow: #FFCB0C;
+    --primary-white: #FFF;
     --dark-gray: #B4ACAC;
     --dark-blue: #10162F;
+    --light-yellow: #FFEFB6;
 }
 
 /* ELEMENTS*/
