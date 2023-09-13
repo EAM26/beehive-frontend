@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: indianred 1px solid;
+    /*border: indianred 1px solid;*/
 }
 
 
@@ -25,6 +25,8 @@
     flex-direction: column;
     margin-inline: 1rem;
     width: 100%;
+    /*flex: 0 0 100vh;*/
+
 }
 
 

@@ -15,6 +15,7 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/week" element={<Week/>}/>
+                {/*<Route path="/week" element={<Week/>}/>*/}
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </>
