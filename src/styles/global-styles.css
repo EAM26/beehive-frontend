@@ -21,30 +21,34 @@
 }
 
 .inner-container {
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     margin-inline: 1rem;
+    width: 100%;
+    /*flex: 0 0 100vh;*/
+
 }
 
 
-/* COLORS VARS */
+/* VARS */
 
 :root {
+
+    /* COLORS VARS */
     --primary-black: #000;
     --primary-yellow: #FFCB0C;
     --primary-white: #FFF;
     --dark-gray: #B4ACAC;
     --dark-blue: #10162F;
     --light-yellow: #FFEFB6;
+    --light-gray: #F2F2F2;
 }
 
 /* ELEMENTS*/
 
 body {
     font-family: 'Poppins', sans-serif;
-    min-width: 100vh;
+    min-height: 100vh;
     background-color: var(--dark-blue);
     /*font-family: 'Roboto', sans-serif;*/
 }
