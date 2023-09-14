@@ -1,0 +1,18 @@
+.shifts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px 0 2px 0;
+    /*background-color: var(--primary-yellow);*/
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.shifts > * {
+    flex: 1;
+}

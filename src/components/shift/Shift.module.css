@@ -1,0 +1,17 @@
+
+.list-styling {
+    display: flex;
+    /*align-items: flex-start;*/
+    /*background-color: var(--light-orange);*/
+    list-style: none;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.span-styling {
+    margin:  5px;
+    font-size: 12px;
+}
+
+
+

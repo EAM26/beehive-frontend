@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-function Button({type, text, onClick, className, children}) {
+function Button({type, text, onClick, className, children, spanClass}) {
     return (
         <button  type={type} className={`${styles['general-button']} ${className}`} onClick={onClick}>
             {children}
-            {text}
+            <span className={spanClass}>{text}</span>
         </button>
     );
 }

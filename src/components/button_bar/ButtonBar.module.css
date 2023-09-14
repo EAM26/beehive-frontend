@@ -1,12 +1,7 @@
 Button {
     background-color: var(--primary-yellow);
-    text-transform: uppercase;
     height: 100%;
     border: none;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 16px;
-
 }
 
 
@@ -103,4 +98,8 @@ Button {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
+}
+
+.publish-text-button {
+    margin-left: 10px;
 }

@@ -1,0 +1,14 @@
+
+.list-styling {
+    display: flex;
+    justify-content: center;
+
+}
+
+.span-styling {
+    margin: 0 5px;
+}
+
+.span-styling:first-child {
+    text-transform: capitalize;
+}

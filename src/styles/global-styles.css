@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*border: indianred 1px solid;*/
+    border: indianred 1px solid;
 }
 
 
@@ -25,8 +25,6 @@
     flex-direction: column;
     margin-inline: 1rem;
     width: 100%;
-    /*flex: 0 0 100vh;*/
-
 }
 
 
@@ -42,7 +40,36 @@
     --dark-blue: #10162F;
     --light-yellow: #FFEFB6;
     --light-gray: #F2F2F2;
+    --light-orange: #FF9600;
+    --dark-orange: #E57D32;
+    --light-turquoise: #23E4E4;
+    --light-green: #0EC237;
+    --light-peach: #FFE6CC;
+    --light-mint: #D6F8E7
 }
+
+/* COLOR STYLING*/
+
+.background-orange {
+    background-color: var(--light-orange)
+}
+
+.background-turquoise {
+    background-color: var(--light-turquoise)
+}
+
+.background-green {
+    background-color: var(--light-green)
+}
+
+.background-peach {
+    background-color: var(--light-peach);
+}
+
+.background-mint {
+    background-color: var(--light-mint);
+}
+
 
 /* ELEMENTS*/
 
@@ -50,6 +77,7 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background-color: var(--dark-blue);
-    /*font-family: 'Roboto', sans-serif;*/
 }
+
+
 

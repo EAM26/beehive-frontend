@@ -1,5 +1,4 @@
 import React from 'react';
-// import styles from "../../pages/weekpage/Week.module.css";
 import Button from "../button/Button";
 import styles from './ButtonBar.module.css';
 import {CalendarBlank, CaretLeft, CaretRight, ShareFat} from "@phosphor-icons/react";
@@ -29,7 +28,7 @@ function ButtonBar() {
                         <Button className={styles['dag']} text='dag'/>
                         <Button className={styles['week']} text='week'/>
                     </div>
-                    <Button className={styles['publish-icon']} text='publiceer'><ShareFat size={20} weight="fill"/></Button>
+                    <Button className={styles['publish-icon']} spanClass={styles['publish-text-button']} text='publiceer'><ShareFat size={25} weight="fill"/></Button>
                 </div>
 
             </div>
