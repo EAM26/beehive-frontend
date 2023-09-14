@@ -1,2 +1,12 @@
+button {
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
 
 
