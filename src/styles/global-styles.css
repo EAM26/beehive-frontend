@@ -25,8 +25,6 @@
     flex-direction: column;
     margin-inline: 1rem;
     width: 100%;
-    /*flex: 0 0 100vh;*/
-
 }
 
 
@@ -50,6 +48,5 @@ body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background-color: var(--dark-blue);
-    /*font-family: 'Roboto', sans-serif;*/
 }
 
