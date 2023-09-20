@@ -3,10 +3,11 @@ import ButtonBar from "../../components/button_bar/ButtonBar";
 import WeekRow from "../../components/week-row/WeekRow";
 import WeekShift from "../../components/week-shifts/WeekShift";
 import styles from './Week.module.css'
+import {colorOptions, colorPicker} from "../../utils/utils";
 
 function Week() {
 
-    const colorOptions = ['background-orange', 'background-turquoise', 'background-green', 'background-peach', 'background-mint',];
+    // const colorOptions = ['background-orange', 'background-turquoise', 'background-green', 'background-peach', 'background-mint',];
     return (
         //TODO: Add plus icon
         <div className={'outer-container'}>
@@ -16,13 +17,13 @@ function Week() {
                     <section><WeekRow/></section>
                     {/*TODO: Create helper function for colorpicker*/}
                     <section><WeekShift teamName={"Bediening"}
-                                        colorClass={colorOptions[Math.floor(Math.random() * colorOptions.length)]}/>
+                                        colorClass={colorPicker(colorOptions)}/>
                     </section>
                     <section><WeekShift teamName={"Bar"}
-                                        colorClass={colorOptions[Math.floor(Math.random() * colorOptions.length)]}/>
+                                        colorClass={colorPicker(colorOptions)}/>
                     </section>
                     <section><WeekShift teamName={"Keuken"}
-                                        colorClass={colorOptions[Math.floor(Math.random() * colorOptions.length)]}/>
+                                        colorClass={colorPicker(colorOptions)}/>
                     </section>
                 </div>
             </div>
