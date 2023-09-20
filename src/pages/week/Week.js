@@ -7,22 +7,22 @@ import {colorOptions, colorPicker} from "../../utils/utils";
 
 function Week() {
 
-    // const colorOptions = ['background-orange', 'background-turquoise', 'background-green', 'background-peach', 'background-mint',];
+
     return (
         //TODO: Add plus icon
         <div className={'outer-container'}>
             <div className={'inner-container'}>
                 <div className={styles['week-page']}>
-                    <section><ButtonBar/></section>
-                    <section><WeekRow/></section>
+                    <section className={styles['week-section']}><ButtonBar/></section>
+                    <section className={styles['week-section']}><WeekRow/></section>
                     {/*TODO: Create helper function for colorpicker*/}
-                    <section><WeekShift teamName={"Bediening"}
+                    <section className={styles['week-section']}><WeekShift teamName={"Bediening"}
                                         colorClass={colorPicker(colorOptions)}/>
                     </section>
-                    <section><WeekShift teamName={"Bar"}
+                    <section className={styles['week-section']}><WeekShift teamName={"Bar"}
                                         colorClass={colorPicker(colorOptions)}/>
                     </section>
-                    <section><WeekShift teamName={"Keuken"}
+                    <section className={styles['week-section']}><WeekShift teamName={"Keuken"}
                                         colorClass={colorPicker(colorOptions)}/>
                     </section>
                 </div>

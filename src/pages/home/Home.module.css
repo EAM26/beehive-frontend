@@ -1,11 +1,3 @@
-/*.home-container {*/
-/*    display: flex;*/
-/*    flex-direction: column; !* Stack hexagons vertically *!*/
-/*    align-items: center; !* Center hexagons horizontally *!*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-
-/*}*/
 
 .hexagon-row {
     display: flex;

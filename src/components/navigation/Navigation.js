@@ -9,8 +9,8 @@ function Navigation() {
             <div className={`outer-container ${styles["nav-outer"]}`}>
                 <NavLink to="/" className={styles['nav-style']}>
                     <div className={styles["nav-left"]}>
-                        <img src={beehiveLogo} alt="beehive-logo"/>
-                        <h2>Beehive</h2>
+                        <img className={styles['nav-img']} src={beehiveLogo} alt="beehive-logo"/>
+                        <h2 className={styles['nav-h2']}>Beehive</h2>
                     </div>
                 </NavLink>
                 <div>

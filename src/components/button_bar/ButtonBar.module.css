@@ -1,4 +1,4 @@
-Button {
+.bar-button {
     background-color: var(--primary-yellow);
     height: 100%;
     border: none;

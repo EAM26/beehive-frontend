@@ -1,10 +1,10 @@
-img {
+.nav-img {
     width: 50px;
     height: 60px;
 }
 
 
-h2 {
+.nav-h2 {
     padding-left: 10px;
     font-size: 40px;
 }
