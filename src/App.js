@@ -5,7 +5,7 @@ import Login from "./pages/login/Login";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import Navigation from "./components/navigation/Navigation"
-import Week from "./pages/weekpage/Week";
+import Week from "./pages/week/Week";
 
 function App() {
     return (
