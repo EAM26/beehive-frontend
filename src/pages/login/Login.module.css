@@ -1,0 +1,14 @@
+.week-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-yellow);
+}
+
+.login-a {
+    background: none;
+    color: inherit; /* Makes the link have the same color as surrounding text */
+    font: inherit; /* Makes the font styles same as surrounding text */
+
+}
+
