@@ -1,14 +1,72 @@
 .week-outer {
     display: flex;
     flex-direction: column;
+    background-color: var(--mid-yellow);
+    height: 600px;
+    width: 500px;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+
+.head-login {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: var(--light-yellow);
+    height: 40%;
+}
+
+.header-text {
+    font-size: 2.0rem;
+    padding-top:30px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    padding-bottom: 20px;
+
+}
+
+.input-field {
+    width: 90%;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid var(--dark-gray);
+}
+
+.input-field::placeholder {
+    font-size: 13px;
+    color: var(--dark-gray);
 }
 
 .login-a {
     background: none;
-    color: inherit; /* Makes the link have the same color as surrounding text */
-    font: inherit; /* Makes the font styles same as surrounding text */
-
+    color: inherit;
+    font: inherit;
 }
+
+
+.login-button {
+    border-radius: 5px;
+    background-color: var(--primary-yellow);
+    border: 1px solid var(--dark-gray);
+}
+
+
+
+
+
+
+
+
+
+
 
