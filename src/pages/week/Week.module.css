@@ -4,7 +4,7 @@
     align-items: center;
 
 }
-section {
+.week-section {
     display: flex;
     flex-direction: column;
     width: 95%;
