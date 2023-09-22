@@ -1,7 +1,10 @@
 .chart-outer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 .chart-head {
@@ -23,15 +26,25 @@
     background-color: var(--mid-yellow);
     justify-content: center;
     align-items: center;
-    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    width: 80%;
 
 }
 
 .chart-content-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-right: 60px;
+
 }
 .chart-content-right {
     display: flex;
     flex-direction: column;
+}
+
+.chart-label {
+    display: flex;
+    justify-content: center;
 }

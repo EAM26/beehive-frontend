@@ -11,20 +11,20 @@ function Chart() {
                         <img src={originalBee} alt="bee-logo"/>
                         <h2 className={styles['chart-h2']}>CHART</h2>
                     </div>
-                    <div className={styles['chart-content']}>
+                    <form className={styles['chart-content']}>
                         <div className={styles['chart-content-left']}>
-                            <p>TEST</p>
-                            <p>TEST</p>
-                            <p>TEST</p>
-                            <p>TEST</p>
+                            <label className={styles['chart-label']} htmlFor="first-name">Voornaam<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="preposition">Tussenvoegsel<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="last-name">Achternaam:<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="email">Email:<input type="email"/></label>
                         </div>
                         <div className={styles['chart-content-right']}>
-                            <p>TEST</p>
-                            <p>TEST</p>
-                            <p>TEST</p>
-                            <p>TEST</p>
+                            <label className={styles['chart-label']} htmlFor="first-name">Voornaam<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="preposition">Tussenvoegsel<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="last-name">Achternaam:<input type="text"/></label>
+                            <label className={styles['chart-label']} htmlFor="email">Email:<input type="email"/></label>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
