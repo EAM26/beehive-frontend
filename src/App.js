@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import Navigation from "./components/navigation/Navigation"
 import Week from "./pages/week/Week";
+import Chart from "./pages/chart/Chart";
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/week" element={<Week/>}/>
+                <Route path="/chart" element={<Chart/>}/>
+
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </>

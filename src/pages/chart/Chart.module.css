@@ -1,0 +1,37 @@
+.chart-outer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.chart-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chart-h2 {
+    color: var(--mid-yellow);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.chart-content {
+    display: flex;
+    background-color: var(--mid-yellow);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.chart-content-left {
+    display: flex;
+    flex-direction: column;
+}
+.chart-content-right {
+    display: flex;
+    flex-direction: column;
+}
