@@ -5,6 +5,7 @@ export const AuthContext = createContext({});
 
 const AuthContextProvider = ({children}) => {
 
+
     const navigate = useNavigate();
     const data = null;
 

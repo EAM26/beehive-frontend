@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* This will style the table headers */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* This will style each table row and will add a hover effect */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* This will style the table cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* This will style the table header and cells to ensure they are aligned properly */
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/* Add some padding and a fixed layout to make the table more sturdy */
+table {
+    border-spacing: 0;
+    padding: 0;
+    table-layout: fixed;
+}
