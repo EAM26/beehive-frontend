@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './TempGetReq.css'
 import axios from "axios";
-
+// Aanpassing
 function TempGetReq() {
     const [employees, setEmployees] = useState([])
     useEffect(() => {
