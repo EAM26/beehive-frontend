@@ -1,38 +1,49 @@
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+
+    background-color: white;
 }
 
-.hexagon-container {
-    display: inline-block;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 20px;
 }
 
-.hexagon {
-    width: 100px;
-    height: 58px;
-    background-color: #3498db;
-    position: relative;
+/* This will style the table headers */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
-.hexagon:before,
-.hexagon:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+/* This will style each table row and will add a hover effect */
+tr {
+    border-bottom: 1px solid #ddd;
 }
 
-.hexagon:before {
-    top: -29px;
-    border-bottom: 29px solid #3498db;
+tr:hover {
+    background-color: #f5f5f5;
 }
 
-.hexagon:after {
-    bottom: -29px;
-    border-top: 29px solid #3498db;
+/* This will style the table cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
+
+/* This will style the table header and cells to ensure they are aligned properly */
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/* Add some padding and a fixed layout to make the table more sturdy */
+table {
+    border-spacing: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
