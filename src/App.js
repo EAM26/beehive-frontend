@@ -7,6 +7,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Navigation from "./components/navigation/Navigation"
 import Week from "./pages/week/Week";
 import Chart from "./pages/chart/Chart";
+import TempGetReq from "./pages/Temp/TempGetReq";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/week" element={<Week/>}/>
                 <Route path="/chart" element={<Chart/>}/>
+                <Route path="/temp" element={<TempGetReq/>}/>
 
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
