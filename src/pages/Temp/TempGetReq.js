@@ -33,12 +33,13 @@ function TempGetReq() {
                 </thead>
                 <tbody>
                 {employees.map((employee)=> {
-                    return <tr key={employee.id}>
-                        <td>{employee.id}</td>
-                        <td>{employee.firstName}</td>
-                        <td>{employee.lastName}</td>
-                        <td>{employee.email}</td>
-                    </tr>
+                        return <tr key={employee.id}>
+                            <td>{employee.id}</td>
+                            <td>{employee.firstName}</td>
+                            <td>{employee.lastName}</td>
+                            <td>{employee.email}</td>
+                        </tr>
+
                     }
 
                 )}

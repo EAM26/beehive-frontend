@@ -19,7 +19,8 @@ function App() {
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/week" element={<Week/>}/>
                 <Route path="/chart" element={<Chart/>}/>
-                <Route path="/temp1" element={<TempGetReq/>}/>
+                <Route path="/temp" element={<TempGetReq/>}/>
+
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </>
