@@ -5,20 +5,26 @@ import axios from "axios";
 function TempGetReq() {
     const [employees, setEmployees] = useState([])
     useEffect(() => {
-        async function fetchEmployees() {
-            try {
-                const response = await axios.get('http://localhost:8080/employees')
-                setEmployees(response.data)
-                console.log(response.data)
-                const name = response.data[0].firstName
-                console.log(name)
+        // async function fetchEmployees() {
+        //     try {
+        //         const response = await axios.get('http://localhost:8080/employees')
+        //         setEmployees(response.data)
+        //         console.log(response.data)
+        //         const name = response.data[0].firstName
+        //         console.log(name)
+        //
+        //     } catch (e) {
+        //         console.error(e)
+        //     }
+        // }
+        //
+        // fetchEmployees()
+        (async () => {
+            const response = await  axios.get('http://localhost:8080/employees')
+            setEmployees(response.data)
+            console.log(employees)
+        })()
 
-            } catch (e) {
-                console.error(e)
-            }
-        }
-
-        fetchEmployees()
     }, []);
     return (
         <div>
