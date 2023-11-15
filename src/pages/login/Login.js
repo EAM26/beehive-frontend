@@ -21,7 +21,8 @@ function Login() {
                     password: data.password
                 })
             console.log(response.data.jwt)
-            login(response.data.jwt, "/home")
+            login(response.data.jwt, "/profile")
+            // login(response.data.jwt, "/home")
 
         } catch (e) {
             console.error(e)
